@@ -1,9 +1,28 @@
-# Producktivity-
-Producktivity: a desktop pet designed to nudge you toward discipline.
-
 # 🦆 Producktivity
 
 **一只住在你桌面上的鸭子，陪你专注、提醒你休息、替你赶走摸鱼的念头。**
+
+---
+
+## ⚠️ 重要说明
+
+> **当前版本需要在 Visual Studio 编译器中运行，较为不便。**  
+> **我们正在努力打包生成 `.exe` 可执行文件，很快会推出双击即可运行的版本！**
+
+---
+
+## 🚀 运行说明
+
+### 环境要求
+- Windows 10 / 11
+- Visual Studio 2022（推荐）或 VS Code
+- .NET 6.0 或更高版本
+
+### 运行步骤
+1. 用 Visual Studio 打开 `Producktivity.sln` 解决方案文件  
+2. 按 `F5` 或点击“启动”按钮即可编译运行
+
+> 💡 **后续计划**：我们将尽快发布 `.exe` 安装包，届时无需安装任何环境，下载后双击即可直接使用。
 
 ---
 
@@ -75,32 +94,6 @@ Producktivity: a desktop pet designed to nudge you toward discipline.
 - 应用拦截总次数
 - 程序累计运行时长
 - 数据自动保存，跨会话累计
-
----
-
-## 🚀 快速开始
-
-### 环境要求
-- Windows 10 / 11
-- .NET 6.0 或更高版本
-- Visual Studio 2022（推荐）或 VS Code
-
-### 运行步骤
-
-1. **克隆仓库**
-   ```bash
-   git clone https://github.com/YourUsername/producktivity.git
-   cd producktivity
-   ```
-
-2. **用 Visual Studio 打开** `Producktivity.sln`
-
-3. **确认图片资源** — 确保 `Producktivity/images/` 目录下有：
-   - `foot_closed.png` — 鸭子站立
-   - `foot_open.png` — 鸭子迈步
-   - `nest.png` — 鸭子窝（可选）
-
-4. **按 F5 运行**
 
 ---
 
